@@ -1,5 +1,13 @@
 # HDU ZhengFang System Toolkits
 
+## How to install
+```
+git clone https://github.com/SinoReimu/ClassHunter
+cd ClassHunter
+pip install -r requirements.txt
+```
+then you can use follow function we have already provide
+
 ## login.py
 Simulate login and get cookie for later operate
 ```
