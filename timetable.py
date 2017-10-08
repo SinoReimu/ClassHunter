@@ -9,14 +9,14 @@ from util import read, getopener
 # get argument 
 
 if len(sys.argv) < 4:
-	print('usage:python main.py [current/history] [name] [student code] ([year] [term(1,2,3)] if history)')
+	print('usage:python timetable.py [current/history] [name] [student code] ([year] [term(1,2,3)] if history)')
 	sys.exit(0)
 else:
 	name = sys.argv[2]
 	code = sys.argv[3]
 	if sys.argv[1] == 'history':
 		if len(sys.argv) < 6:
-			print('usage:python main.py [now/history] [name] [student code] ([year] [term(1,2,3)] if history)')
+			print('usage:python timetable.py [now/history] [name] [student code] ([year] [term(1,2,3)] if history)')
 			sys.exit(0)
 		else:	
 			year = sys.argv[4]

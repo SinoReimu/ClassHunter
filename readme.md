@@ -20,12 +20,17 @@ Get timetable for logon account
 usage : python timetable.py [current/history] [name] [code] (if history timetable [year] [term(1-3)])
 ```
 
-## classHunter.py
-Get selected class
+## classhunter.py
+Get selected class(building)
 ```
-usage : python classHunter.py [classcode]
+usage : python classHunter.py [classcode] [name] [code]
 (not open this function to open source users)
 ```
 
+## gradequery.py
+Query test grade(building)
+```
+usage : python gradequery.py [name] [code] [year] [term]
+```
 ### more function to develop ---
 ### you just need to load cookie from cookie.dat
