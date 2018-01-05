@@ -1,8 +1,7 @@
 HDU ZhengFang System Toolkits
 =============================
 
-[![Build Status](https://img.shields.io/travis/USER/REPO.svg)](https://github.com/sinoreimu)
-[![License](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/sinoreimu/ClassHunter/license.txt)
+[![License](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/SinoReimu/ClassHunter/blob/master/license.txt)
 
 
 How to install
