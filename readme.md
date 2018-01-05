@@ -1,6 +1,12 @@
-# HDU ZhengFang System Toolkits
+HDU ZhengFang System Toolkits
+=============================
 
-## How to install
+[![Build Status](https://img.shields.io/travis/USER/REPO.svg)](https://github.com/sinoreimu)
+[![License](https://img.shields.io/aur/license/yaourt.svg)](https://github.com/sinoreimu/ClassHunter/license.txt)
+
+
+How to install
+--------------
 ```
 git clone https://github.com/SinoReimu/ClassHunter
 cd ClassHunter
@@ -8,6 +14,8 @@ pip install -r requirements.txt
 ```
 then you can use follow function we have already provide
 
+Toolkits
+--------
 ## login.py
 Simulate login and get cookie for later operate
 ```
@@ -32,8 +40,11 @@ Query test grade(building)
 ```
 usage : python gradequery.py [name] [code] [year] [term]
 ```
+
 ### more function to develop ---
 ### you just need to load cookie from cookie.dat
 
-# License GPL V2.0
-# For better ocr code, please contact with my email sinoreimu@gmail.com
+---------------------
+License GNUGPL V3.0
+
+For better ocr code, please contact with my email sinoreimu@gmail.com
