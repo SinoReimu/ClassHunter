@@ -34,3 +34,6 @@ usage : python gradequery.py [name] [code] [year] [term]
 ```
 ### more function to develop ---
 ### you just need to load cookie from cookie.dat
+
+# License GPL V2.0
+# For better ocr code, please contact with my email sinoreimu@gmail.com
