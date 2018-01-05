@@ -40,11 +40,9 @@ resp2 = opener.open('http://cas.hdu.edu.cn/cas/login', para_data)
 
 url = re.compile('window.location.href="(.*)"').search(read(opener.open('http://jxgl.hdu.edu.cn'))).groups()[0]
 opener.addheaders = [('Referer', 'http://cas.hdu.edu.cn/cas/login')]
-url = re.compile('window.location.href="(.*)"').search(read(opener.open(url))).groups()[0]
-url = re.compile("location.href='(.*)'").search(read(opener.open(url))).groups()[0]
-url = re.compile('window.location.href="(.*)"').search(read(opener.open(url))).groups()[0]
-opener.open(url)
-opener.open('http://jxgl.hdu.edu.cn/xs_main.aspx?xh=15058214')
+read(opener.open(url))
+read(opener.open('http://jxgl.hdu.edu.cn/xs_main.aspx?xh='+username))
 # save the cookie
 
 cookie.save(ignore_discard=True, ignore_expires=True)
+print("login succeed and cookies saved in cookie.dat")
